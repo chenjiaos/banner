@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <p>您好，欢迎来到麦包包！【&nbsp;&nbsp;<span onclick="loginpage()">登录</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span onclick="loginpage()">注册</span>&nbsp;&nbsp;】</p>
+            <li>网站导航</li>
+            <li><i></i>购物车</li>
+            <li>我的订单</li>
+        </ul>
+    </header>
+    <div class="searchbar">
+        <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+        <ul>
+            <li><img src="images/fuw_03.jpg"></li>
+            <li><img src="images/fuw_05.jpg"></li>
+            <li><img src="images/fuw_041.jpg"></li>
+        </ul>
+    </div>
+    <nav>
+        <ul>
+            <li>全部商品分类</li>
+            <li class="navbg">首页</li>
+            <li>新品</li>
+            <li>真皮</li>
+            <li>品牌</li>
+            <li>选包</li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <ul>
+            <li><img src="images/0509PC.jpg" alt=""></li>
+            <li><img src="images/052301.jpg" alt=""></li>
+            <li><img src="images/052302.jpg" alt=""></li>
+            <li><img src="images/052303.jpg" alt=""></li>
+            <li><img src="images/052304.jpg" alt=""></li>
+            <li><img src="images/0509PC.jpg" alt=""></li>
+        </ul>
+        <div class=""></div>
+        <span class="left"><</span>
+        <span class="right">></span>
+        <ol>
+            <li class="current">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ol>
+    </div>
+    <div class="wrap">
+        <div class="border">
+            <span class="close" onclick="closepage()">X</span>
+            <ul>
+                <li class="titlecolor">登录</li>
+                <li>注册</li>
+            </ul>
+            <div class="login">
+                    <label>用户名：</label><input type="text" class="username"><br>
+                    <label>密码：</label><input type="password" class="password"><br>
+                    <span onclick="login()" class="btn">登录 </span>
+            </div>
+            <div class="register display">
+                <label>用户名：</label><input type="text" class="username"><br>
+                <label>密码：</label><input type="password" class="password"><br>
+                <label>确认密码：</label><input type="password" class="repassword"><br>
+                <label>电话：</label><input type="text" class="phone"><br>
+                <label>邮箱：</label><input type="text" class="email"><br>
+                <label>地址：</label><input type="text" class="address"><br>
+                <span onclick="register()" class="btn">注册 </span>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+header{
+    width: 100%;
+    height: 40px;
+    margin:0px auto;
+    background: #f2f2f2;
+    font-size:13px;
+    line-height:40px;
+}
+header ul{
+    width:80%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+header ul p{
+    float: left;
+}
+header ul p span:hover{
+    cursor: pointer;
+    color:red;
+    font-weight:bold;
+}
+header ul li{
+    float: right;
+    margin-left:5%;
+}
+.wrap{
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.border .close{
+    width: 20px;
+    height:20px;
+    background: #f2f2f2;
+    border: 1px solid grey;
+    text-align: center;
+    position: absolute;
+    right:-22px;
+    top: 0px;
+}
+.border .close:hover{
+    color: red;
+    cursor:pointer;
+}
+.border{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top:10%;
+    left:35%;
+    background: #fff;
+}
+.border ul{
+    overflow: hidden;
+    margin-bottom:40px;
+}
+.border ul li{
+    float: left;
+    width: 45%;
+    text-align: center;
+    font-size:20px;
+    padding:10px 10px;
+    cursor: pointer;
+}
+.border .login{
+    padding: 10px 50px;
+}
+.border .titlecolor{
+    border-bottom:2px solid red;
+    color: white;
+    background: #ff0000;
+ }
+.border .register{
+    padding: 10px 50px;
+}
+.wrap label{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+}
+.wrap .btn{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background: lightgreen;
+    border-outline:none;
+    color: #fff;
+    text-align: center;
+    line-height:40px;
+    font-size:18px;
+    cursor: pointer;
+}
+.border .display{
+    display: none;
+}
+.searchbar{
+    width: 80%;
+    height:130px;
+    margin:0px auto;
+}
+.searchbar .logo{
+    padding:40px 0px;
+    float:left;
+}
+.searchbar ul{
+    width:225px;
+    position:fixed;
+    right:120px;
+    top:70px;
+}
+.searchbar ul li{
+    float:left;
+}
+nav{
+    width: 100%;
+    background: #d41c4f;
+    height:40px;
+    color: #fff;
+    overflow: hidden;
+}
+nav ul{
+    width: 80%;
+    margin:0px auto;
+}
+nav ul li{
+    float: left;
+    width: 60px;
+    text-align: center;
+    line-height:40px;
+    font-weight: bold;
+    cursor:pointer;
+}
+nav ul li:nth-of-type(1){
+    width: 250px;
+}
+nav ul li:hover{
+    background: #ac143f;
+}
+nav ul .navbg{
+    background: #ac143f;
+}
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    width: 600%;
+    overflow: hidden;
+    position:relative;
+    left:0px;
+}
+.banner ul li{
+    width: 16.66%;
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+}
+.banner span{
+    width: 33px;
+    height:35px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    text-align: center;
+    line-height:35px;
+    font-weight:100;
+    color: #fff;
+    font-size: 30px;
+}
+.banner .left{
+    top:50%;
+    left: 30%;
+}
+.banner .right{
+    top:50%;
+    right:10%;
+}
+.banner span:hover{
+    background: rgba(0,0,0,0.6);
+}
+.banner ol{
+    width:200px;
+    height:20px;
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+    overflow: hidden;
+}
+.banner ol li{
+    width:20px;
+    height:20px;
+    float: left;
+    text-align: center;
+    font-size:12px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    margin-right: 10px;
+    color: dimgray;
+}
+.banner ol .current{
+    background: red;
+    color:white;
+}
