@@ -1,4 +1,4 @@
-# first  
+﻿# first  
 
   首次上传github  
 
@@ -10,10 +10,8 @@
 
   请按以下步骤运行（需安装node.js）：  
 
-	1. npm install express  
+	1. npm install 
 
-	2. npm install body-parser  
+	2. node server.js  
 
-	3. node server.js  
-
-	4. 打开index.html
+	3. 打开index.html
